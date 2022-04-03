@@ -1,0 +1,27 @@
+.icoStyle {
+  color: rgb(255, 255, 255);
+}
+
+.footCol3 {
+  text-align: right;
+}
+
+.footDivOut {
+  position: relative;
+  bottom: 2px;
+  left: 0px;
+  width: 100%;
+  background: linear-gradient(to right, #ffd700, rgb(255, 255, 255));
+  padding-top: 1px;
+}
+
+.footDivIn {
+  padding: 20px;
+  background: #2b2b2b;
+}
+
+.logoContainer {
+  margin: 2%;
+  max-width: 100%;
+  width: 100%;
+}
