@@ -127,7 +127,7 @@ function Home() {
               <Col>Mobile: +91 99140-61717</Col>
             </Row>
             <Row>
-              <Col>Email: info@rythmimmigration.consulting</Col>
+              <Col>Email: info@ryhthmimmigration.consulting</Col>
             </Row>
           </Col>
         </Row>
@@ -210,7 +210,7 @@ function Home() {
                         required
                         min="999999999"
                         type="number"
-                        placeholder="6049061717"
+                        placeholder="Enter number here"
                         name="phone"
                       />
                       <Form.Control.Feedback type="invalid">

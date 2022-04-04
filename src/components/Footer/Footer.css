@@ -1,5 +1,23 @@
-.icoStyle {
+.icoStyleInsta {
   color: rgb(255, 255, 255);
+  background-image: linear-gradient(to bottom left, rgb(148, 3, 252), rgb(255, 0, 64), rgb(252, 182, 3));
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 20%;
+
+}
+
+.icoStylefacebook {
+  background-color: rgb(255, 255, 255);
+  /* background-image: linear-gradient(to bottom left, rgb(148, 3, 252), rgb(255, 0, 64), rgb(252, 182, 3)); */
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 20%;
+
 }
 
 .footCol3 {

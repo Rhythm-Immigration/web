@@ -2,6 +2,10 @@ import React, { Component } from "react";
 // import ModalFooter from "react-bootstrap/ModalFooter";
 import Container from "react-bootstrap/Container";
 import MediaQuery from "react-responsive";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram } from "@fortawesome/free-solid-svg-icons";
+
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
@@ -22,7 +26,7 @@ class Footer extends Component {
 
 
                             <Col sm className="footCol3">
-                                <a href="mailto:info@rythmimmigration.consulting?subject=Mail from Website regarding: ">
+                                <a href="mailto:info@rhythmimmigration.consulting?subject=Mail from Website regarding: ">
                                     <Button variant="outline-warning">Contact me</Button>
                                 </a>
                             </Col>
@@ -38,14 +42,16 @@ class Footer extends Component {
                                     <ul className="list-unstyled list-inline text-center">
                                         <li className="list-inline-item">
                                             <a className="btn-floating btn-fb mx-2" href="https://www.facebook.com/rhythmimmigration" target="_blank" rel="noopener noreferrer">
-                                                <i className="fab fa-facebook icoStyle"> </i>
+                                                <i className="fab fa-facebook-square icoStylefacebook fa-2xl"> </i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
                                             <a className="btn-floating btn-tw mx-2" href="https://www.instagram.com/rhythmimmigration/?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
-                                                <i className="fab fa-instagram icoStyle"> </i>
+                                                <i className="fab fa-instagram icoStyleInsta fa-2xl"> </i>
                                             </a>
                                         </li>
+
+
                                     </ul>
                                 </Col>
                             </MediaQuery>
@@ -55,32 +61,21 @@ class Footer extends Component {
                                     <ul className="list-unstyled list-inline text-center">
                                         <li className="list-inline-item">
                                             <a className="btn-floating btn-fb mx-2" href="https://m.facebook.com/rhythmimmigration" target="_blank" rel="noopener noreferrer">
-                                                <i className="fab fa-facebook icoStyle"> </i>
+                                                <i className="fab fa-facebook-square icoStylefacebook fa-2xl"> </i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
                                             <a className="btn-floating btn-tw mx-2" href="https://www.instagram.com/rhythmimmigration/?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
-                                                <i className="fab fa-instagram icoStyle"> </i>
+                                                <i className="fab fa-instagram icoStyleInsta fa-2xl"> </i>
                                             </a>
                                         </li>
+
+
                                     </ul>
                                 </Col>
                             </MediaQuery>
 
-                            {/* <Col sm>
-                                <ul className="list-unstyled list-inline text-center">
-                                    <li className="list-inline-item">
-                                        <a className="btn-floating btn-fb mx-2" href="https://www.facebook.com/rhythmimmigration" target="_blank" rel="noopener noreferrer">
-                                            <i className="fab fa-facebook icoStyle"> </i>
-                                        </a>
-                                    </li>
-                                    <li className="list-inline-item">
-                                        <a className="btn-floating btn-tw mx-2" href="https://www.instagram.com/rhythmimmigration/?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
-                                            <i className="fab fa-instagram icoStyle"> </i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </Col> */}
+
 
 
 
