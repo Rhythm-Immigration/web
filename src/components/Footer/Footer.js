@@ -21,7 +21,7 @@ class Footer extends Component {
                     < link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"></link>
                     <Container>
                         <Row>
-                            <Col sm>&#169; 2021 Rythm Immigration</Col>
+                            <Col sm>&#169; 2022 Rhythm Immigration</Col>
 
 
 
@@ -82,7 +82,7 @@ class Footer extends Component {
 
                             <MediaQuery minWidth={1290}>
                                 <Col sm>
-                                    <Row><Col sm={5} className="text-right">Business Hours :</Col> <Col sm> <b>By appointments Only</b></Col></Row>
+                                    <Row><Col sm={5} className="text-right">Business Hours :</Col> <Col sm> <b>By appointment Only</b></Col></Row>
                                     <Row><Col sm={5} className="text-right" >Monday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={5} className="text-right" >Tuesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={5} className="text-right" >Wednesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
@@ -95,7 +95,7 @@ class Footer extends Component {
 
                             <MediaQuery maxWidth={1289}>
                                 <Col sm>
-                                    <Row><Col sm={5} className="text-left">Business Hours :</Col> <Col sm> <b>By appointments Only</b></Col></Row>
+                                    <Row><Col sm={5} className="text-left">Business Hours :</Col> <Col sm> <b>By appointment Only</b></Col></Row>
                                     <Row><Col sm={4} className="text-left" >Monday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={4} className="text-left" >Tuesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={4} className="text-left" >Wednesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>

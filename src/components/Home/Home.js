@@ -182,7 +182,7 @@ function Home() {
                         required
                         minLength="4"
                         type="email"
-                        placeholder="enter email here"
+                        placeholder="Enter here"
                         aria-describedby="inputGroupPrepend"
                         required
                         name="email"
@@ -204,7 +204,7 @@ function Home() {
                         required
                         min="999999999"
                         type="number"
-                        placeholder="Enter number here"
+                        placeholder="Enter here"
                         name="phone"
                       />
                       <Form.Control.Feedback type="invalid">

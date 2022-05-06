@@ -1,6 +1,6 @@
 {
-  "name": "rythm",
-  "homepage": "https://rhythmImmigration.github.io",
+  "name": "rhythmimmigration",
+  "homepage": "https://rhythmImmigration.github.io/web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
