@@ -107,7 +107,7 @@ function Home() {
             <Row align="center">
               <Col className="gap">
                 <a target="_blank" rel="noreferrer" href="https://www.google.ca/maps/place/Rhythm+Immigration+Consultancy+Services/@49.1375002,-122.8469502,17z/data=!3m1!4b1!4m5!3m4!1s0x5485db2254783e4d:0xbf67babee5beb030!8m2!3d49.1374967!4d-122.8447615">
-                  <Button variant="warning">Get Directions</Button></a>
+                  <Button variant="outline-warning">Get Directions</Button></a>
               </Col>
             </Row>
           </Col>
@@ -234,7 +234,7 @@ function Home() {
 
 
 
-                <Button variant="warning" type="submit">Send Message</Button>
+                <Button variant="outline-warning" type="submit">Send Message</Button>
 
                 <Row> {result ? <Result /> : null} </Row>
               </Form>

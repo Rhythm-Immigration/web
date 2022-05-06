@@ -27,7 +27,7 @@ class Footer extends Component {
 
                             <Col sm className="footCol3">
                                 <a href="mailto:info@rhythmimmigration.consulting?subject=Mail from Website regarding: ">
-                                    <Button variant="outline-warning">Contact me</Button>
+                                    <Button variant="outline-warning">Contact Us</Button>
                                 </a>
                             </Col>
                         </Row>
@@ -82,7 +82,7 @@ class Footer extends Component {
 
                             <MediaQuery minWidth={1290}>
                                 <Col sm>
-                                    <Row><Col sm={5} className="text-right">Business Hours :</Col> <Col sm> <b>By appointment Only</b></Col></Row>
+                                    <Row><Col sm={5} className="text-right">Business Hours :</Col> <Col sm> <b>By Appointment Only</b></Col></Row>
                                     <Row><Col sm={5} className="text-right" >Monday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={5} className="text-right" >Tuesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={5} className="text-right" >Wednesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
@@ -95,7 +95,7 @@ class Footer extends Component {
 
                             <MediaQuery maxWidth={1289}>
                                 <Col sm>
-                                    <Row><Col sm={5} className="text-left">Business Hours :</Col> <Col sm> <b>By appointment Only</b></Col></Row>
+                                    <Row><Col sm={5} className="text-left">Business Hours :</Col> <Col sm> <b>By Appointment Only</b></Col></Row>
                                     <Row><Col sm={4} className="text-left" >Monday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={4} className="text-left" >Tuesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={4} className="text-left" >Wednesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
