@@ -56,7 +56,7 @@ class Footer extends Component {
                                 </Col>
                             </MediaQuery>
 
-                            <MediaQuery maxWidth={1289}>
+                            <MediaQuery maxWidth={1290}>
                                 <Col sm>
                                     <ul className="list-unstyled list-inline text-center">
                                         <li className="list-inline-item">
@@ -93,7 +93,7 @@ class Footer extends Component {
                                 </Col>
                             </MediaQuery>
 
-                            <MediaQuery maxWidth={1289}>
+                            <MediaQuery maxWidth={1290}>
                                 <Col sm>
                                     <Row><Col sm={5} className="text-left">Business Hours :</Col> <Col sm> <b>By Appointment Only</b></Col></Row>
                                     <Row><Col sm={4} className="text-left" >Monday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
@@ -108,9 +108,7 @@ class Footer extends Component {
                         </Row>
                     </Container>
                 </div>
-
-                {/* <ModalFooter> &#169; 2021 </ModalFooter> */}
-            </div>
+            </div >
         )
     };
 };
