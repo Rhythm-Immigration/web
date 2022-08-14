@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.3f9efff1.css",
-    "main.js": "/web/static/js/main.f8365da8.js",
-    "static/js/377.7a10fb4b.chunk.js": "/web/static/js/377.7a10fb4b.chunk.js",
-    "static/media/homeImage.png": "/web/static/media/homeImage.2b5047448294f2502509.png",
-    "static/media/RCIClogo.png": "/web/static/media/RCIClogo.431b46f27d00c31bfad8.png",
-    "index.html": "/web/index.html",
-    "main.3f9efff1.css.map": "/web/static/css/main.3f9efff1.css.map",
-    "main.f8365da8.js.map": "/web/static/js/main.f8365da8.js.map",
-    "377.7a10fb4b.chunk.js.map": "/web/static/js/377.7a10fb4b.chunk.js.map"
+    "main.css": "/static/css/main.3f9efff1.css",
+    "main.js": "/static/js/main.0dd34509.js",
+    "static/js/377.7a10fb4b.chunk.js": "/static/js/377.7a10fb4b.chunk.js",
+    "static/media/homeImage.png": "/static/media/homeImage.2b5047448294f2502509.png",
+    "static/media/RCIClogo.png": "/static/media/RCIClogo.431b46f27d00c31bfad8.png",
+    "index.html": "/index.html",
+    "main.3f9efff1.css.map": "/static/css/main.3f9efff1.css.map",
+    "main.0dd34509.js.map": "/static/js/main.0dd34509.js.map",
+    "377.7a10fb4b.chunk.js.map": "/static/js/377.7a10fb4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f9efff1.css",
-    "static/js/main.f8365da8.js"
+    "static/js/main.0dd34509.js"
   ]
 }
