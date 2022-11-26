@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 // import MediaQuery from "react-responsive";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
+// import Button from "react-bootstrap/Button";
+// import Modal from "react-bootstrap/Modal";
 // import Row from "react-bootstrap/Row";
 // import Col from "react-bootstrap/Col";
 // import Button from "react-bootstrap/Button";

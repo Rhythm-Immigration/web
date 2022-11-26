@@ -1,4 +1,4 @@
-import React, { Component, useState, useRef } from "react";
+import React, { useState } from "react";
 import MediaQuery from "react-responsive";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -7,8 +7,8 @@ import Button from "react-bootstrap/Button";
 // import ContactForm from "../ContactForm/ContactForm";
 import Form from "react-bootstrap/Form";
 // import FloatingLabel from "react-bootstrap/FloatingLabel";
-import Image from "react-bootstrap/Image";
-import HomeImage from "../../assets/images/homeImage.png";
+// import Image from "react-bootstrap/Image";
+// import HomeImage from "../../assets/images/homeImage.png";
 import MainClip from "../../assets/videos/main.mp4";
 import "./Home.css";
 import { InputGroup } from "react-bootstrap";
