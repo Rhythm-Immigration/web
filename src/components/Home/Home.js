@@ -7,8 +7,8 @@ import Button from "react-bootstrap/Button";
 // import ContactForm from "../ContactForm/ContactForm";
 import Form from "react-bootstrap/Form";
 // import FloatingLabel from "react-bootstrap/FloatingLabel";
-// import Image from "react-bootstrap/Image";
-// import HomeImage from "../../assets/images/homeImage.png";
+import Image from "react-bootstrap/Image";
+import HomeImage from "../../assets/images/homeImage.png";
 import MainClip from "../../assets/videos/main.mp4";
 import "./Home.css";
 import { InputGroup } from "react-bootstrap";
@@ -83,8 +83,8 @@ function Home() {
       <MediaQuery minWidth={1290}>
 
         <Container className="videoContainer">
-          {/* <video className="videoElement" src={MainClip} autoPlay loop muted /> */}
-          <video className="videoElement" src={MainClip} loop muted />
+          <video className="videoElement" src={MainClip} autoPlay loop muted />
+          {/* <video className="videoElement" src={MainClip} loop muted /> */}
 
           <Container>
             <Row className="videoContent">
@@ -275,7 +275,7 @@ function Home() {
 
       <MediaQuery maxWidth={1290}>
         <Container className="videoContainerMobile">
-          <video className="videoElement" src={MainClip} loop muted />
+          <Image className="videoElement" src={HomeImage} />
 
           <Container>
             <Row className="videoContentMobile">

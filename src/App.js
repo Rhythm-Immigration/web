@@ -17,7 +17,7 @@ class App extends Component {
 
     const meta = {
       title: 'Rhythm Immigration',
-      description: 'Rhythm Immigration Website. We offer Canadian Immigration Services.',
+      description: 'Rhythm Immigration Consultancy Services Inc provides personalized and strategic consultancy services to individuals and families on all Canadian immigration visa categories. We help our clients to accomplish their dream of settling, living, studying and working in Canada by assessing their profiles and finding the best immigration pathways for them. Contact: +1 (604) 906-1717',
       link: {
         icon: '/web/favicon.png',
       }
