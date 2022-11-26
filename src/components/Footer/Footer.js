@@ -11,6 +11,9 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import RCIC from "../../assets/images/RCIClogo.png";
+import FacebookLogo from "../../assets/Logos/Facebook Logo.png";
+import InstaLogo from "../../assets/Logos/InstaLogo.png";
+import LinkedinLogo from "../../assets/Logos/Linkedin.png";
 import "./Footer.css";
 
 class Footer extends Component {
@@ -27,7 +30,7 @@ class Footer extends Component {
 
                             <Col sm className="footCol3">
                                 <a href="mailto:info@rhythmimmigration.consulting?subject=Mail from Website regarding: ">
-                                    <Button variant="outline-warning">Contact Us</Button>
+                                    <Button className="contactButton" variant="outline-primary">Contact Us</Button>
                                 </a>
                             </Col>
                         </Row>
@@ -41,17 +44,20 @@ class Footer extends Component {
                                 <Col sm>
                                     <ul className="list-unstyled list-inline text-center">
                                         <li className="list-inline-item">
-                                            <a className="btn-floating btn-fb mx-2" href="https://www.facebook.com/rhythmimmigration" target="_blank" rel="noopener noreferrer">
-                                                <i className="fab fa-facebook-square icoStylefacebook fa-2xl"> </i>
+                                            <a className="" href="https://www.facebook.com/rhythmimmigration" target="_blank" rel="noopener noreferrer">
+                                                <Image className="socialLogo" src={FacebookLogo} />
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a className="btn-floating btn-tw mx-2" href="https://www.instagram.com/rhythmimmigration/?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
-                                                <i className="fab fa-instagram icoStyleInsta fa-2xl"> </i>
+                                            <a className="" href="https://www.instagram.com/rhythmimmigration/?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
+                                                <Image className="socialLogo" src={InstaLogo} />
                                             </a>
                                         </li>
-
-
+                                        <li className="list-inline-item">
+                                            <a className="" href="https://www.linkedin.com/in/rhythm-immigration-487677257/" target="_blank" rel="noopener noreferrer">
+                                                <Image className="socialLogo" src={LinkedinLogo} />
+                                            </a>
+                                        </li>
                                     </ul>
                                 </Col>
                             </MediaQuery>
@@ -60,17 +66,20 @@ class Footer extends Component {
                                 <Col sm>
                                     <ul className="list-unstyled list-inline text-center">
                                         <li className="list-inline-item">
-                                            <a className="btn-floating btn-fb mx-2" href="https://m.facebook.com/rhythmimmigration" target="_blank" rel="noopener noreferrer">
-                                                <i className="fab fa-facebook-square icoStylefacebook fa-2xl"> </i>
+                                            <a className="" href="https://www.facebook.com/rhythmimmigration" target="_blank" rel="noopener noreferrer">
+                                                <Image className="socialLogo" src={FacebookLogo} />
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a className="btn-floating btn-tw mx-2" href="https://www.instagram.com/rhythmimmigration/?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
-                                                <i className="fab fa-instagram icoStyleInsta fa-2xl"> </i>
+                                            <a className="" href="https://www.instagram.com/rhythmimmigration/?utm_medium=copy_link" target="_blank" rel="noopener noreferrer">
+                                                <Image className="socialLogo" src={InstaLogo} />
                                             </a>
                                         </li>
-
-
+                                        <li className="list-inline-item">
+                                            <a className="" href="https://www.linkedin.com/in/rhythm-immigration-487677257/" target="_blank" rel="noopener noreferrer">
+                                                <Image className="socialLogo" src={LinkedinLogo} />
+                                            </a>
+                                        </li>
                                     </ul>
                                 </Col>
                             </MediaQuery>

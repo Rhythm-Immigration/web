@@ -1,0 +1,117 @@
+.infoBox {
+    width: 100%;
+    /* height: 90vh; */
+}
+
+.servicesBoxHeading {
+    width: 100%;
+    /* height: 22.5vh; */
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    background-color: #254093;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight:700;
+}
+
+.servicesBoxA {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    background-color: #EFF1FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.servicesBoxB {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    background-color: #DEE4F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.headingText {
+    margin-top: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: large;
+    font-weight: 500;
+}
+
+.extraInfo {
+    font-size: smaller;
+}
+
+.textInfo {
+    margin-top: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: justify;
+
+}
+
+.servicesSlideBoxDeck {
+    margin-top: 100px;
+    width: 100%;
+    height: 160vh;
+  }
+
+
+.closeButton {
+    margin-top: 10px;
+    color: #254093;
+    border-color: #254093;
+}
+
+.closeButton:hover {
+    background-color: #254093;
+    color: #ffffff;
+}
+
+.readMore {
+    /* height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 300; */
+    font-size: small;
+    font-weight: 500;
+}
+
+.justifyText {
+    text-align: justify;
+}
+
+.separationColor {
+    border-color: #254093;
+}
+
+.darkFlush {
+    background-color: #254093;
+    border-color: #ffffff;
+}
+
+.listHeading {
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: 600;
+}

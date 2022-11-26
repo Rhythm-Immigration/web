@@ -1,3 +1,219 @@
+.videoContainer {
+  width: 100%;
+  height: 90vh;
+}
+
+.videoElement {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slideBoxwidth {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.videoContent {
+  position: absolute;
+  width: 100%;
+  height: 27%;
+  top: 0;
+  margin-top: 73vh;
+  margin-left: 0%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color:rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.videoContainerMobile {
+  width: 100%;
+  height: 90vh;
+}
+.videoContentMobile{
+  position: absolute;
+  top: 0;
+  margin-top: 22vh;
+  margin-left: 0%;
+  padding: 5%;
+  width: 100%;
+  height: 78%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color:rgb(255, 255, 255);
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.whyChoose {
+  width: 100%;
+  height: 20vh;
+  font-size: 150%;
+  width: 100%;
+  margin-top: 1%;
+  padding-top: 4%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.slideBoxDeck {
+  width: 100%;
+  height: 80vh;
+}
+
+.slideBoxDeckMobile {
+  width: auto;
+  margin-bottom: 1000px;
+
+  /* height: 80vh; */
+}
+
+.slideBox{
+  width: 100%;
+  height: 33vh;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-width: 5px;
+  border-radius: 1.75%;
+  border-color: #254093;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight:700;
+}
+
+.slideBoxMobile{
+  width: 100%;
+  height: 33vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-width: 5px;
+  border-radius: 1.75%;
+  border-color: #254093;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight:700;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #254093;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.slideBox:hover .overlay {
+  height: 100%;
+}
+
+.overlayText {
+  width: 100%;
+  height: 100%;
+overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: aliceblue;
+
+}
+
+.contactContainer {
+  width: 100%;
+  height: 80vh;
+}
+
+.contactContainerMobile {
+  width: auto;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+.contactInfoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.contactInfoBoxMobile {
+width: 100%;
+margin: 10%;
+padding: 5%;
+
+}
+
+.contactInfo {
+  margin-top: 7%;
+  width: auto;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+
+.contactInfoMobile {
+  margin-top: 7%;
+  width: 100%;
+  align-content: center;
+  /* height: 25vh; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;*/
+}
+
+.contactHeading {
+  font-size: large;
+  font-weight: 500;
+}
+
+.directionsButton {
+  margin-top: 10px;
+  color: #254093;
+  border-color: #254093;
+}
+
+.directionsButton:hover {
+  background-color: #254093;
+}
+
+.landscapeForm {
+  padding-right: 5%;
+}
+
+.mobileForm {
+  margin-top: 5%;
+  padding-right: 5%;
+}
+
 .container {
   margin: 0%;
   padding: 0%;
@@ -11,7 +227,7 @@
 }
 
 .containerBackgound {
-  background-color: rgba(43, 43, 43, 0.282);
+  background-color: rgb(255, 255, 255);
 
   /* border-radius: 5%; */
 }
@@ -46,8 +262,8 @@
   padding-left: 7%;
   padding-right: 7%;
   height: 100%;
-  background-color: rgba(43, 43, 43, 0.281);
-  border-color: rgba(43, 43, 43, 0.281);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
 }
 
 .contactDiagonal {
@@ -60,7 +276,7 @@
   padding-top: 5%;
   /* height: calc(100% + 500px); */
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-  background-color: rgba(168, 168, 168, 0.281);
+  background-color: rgb(255, 255, 255);
 }
 
 .textLeft {
@@ -69,24 +285,7 @@
 }
 
 .geryColor {
-  background-color: rgba(94, 94, 94, 0.281);
-}
-
-.fontTwoSize {
-  text-align: justify;
-  font-size: 125%;
-  position: relative;
-  top: -50px;
-  left: 0;
-  width: 100%;
-  margin-top: 5%;
-  padding-top: 4%;
-  padding-bottom: 0px;
-  padding-left: 7%;
-  padding-right: 7%;
-  height: 100%;
-  clip-path: polygon(0% 0%, 100% 30px, 100% 100%, 0% calc(100% - 30px));
-  background-color: rgba(168, 168, 168, 0.281);
+  background-color: rgb(255, 255, 255);
 }
 
 .leftPadding {

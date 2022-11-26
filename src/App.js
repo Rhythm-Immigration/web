@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects"
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import DocumentMeta from 'react-document-meta';
+import Services from "./components/Services/Services";
 // import FavIcon from "./assets/Logos/favicon.png";
 
 
@@ -36,6 +37,8 @@ class App extends Component {
 
             <Route exact path="/"><Home /><Footer /></Route>
             <Route path="/projects"><Projects /><Footer /></Route>
+            <Route path="/services"><Services /><Footer /></Route>
+
             {/* <Route path="/faq"><Faq /><Footer /></Route>
           <Route path="/info"><Info /><Footer /></Route>
           <Route path="/about"><About /><Footer /></Route>
