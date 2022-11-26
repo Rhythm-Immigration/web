@@ -2,9 +2,9 @@ import React, { Component } from "react";
 // import ModalFooter from "react-bootstrap/ModalFooter";
 import Container from "react-bootstrap/Container";
 import MediaQuery from "react-responsive";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import { faInstagram } from "@fortawesome/free-solid-svg-icons";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
