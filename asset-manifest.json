@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f9efff1.css",
-    "main.js": "/static/js/main.0dd34509.js",
+    "main.css": "/static/css/main.0b1d097b.css",
+    "main.js": "/static/js/main.2ca98307.js",
     "static/js/377.7a10fb4b.chunk.js": "/static/js/377.7a10fb4b.chunk.js",
-    "static/media/homeImage.png": "/static/media/homeImage.2b5047448294f2502509.png",
+    "static/media/main.mp4": "/static/media/main.5ff6e45acea0a3bb4fcc.mp4",
+    "static/media/InstaLogo.png": "/static/media/InstaLogo.f6ae0ba2d59d79a3e08d.png",
+    "static/media/servicesMain.png": "/static/media/servicesMain.308eef62971a8899b13f.png",
     "static/media/RCIClogo.png": "/static/media/RCIClogo.431b46f27d00c31bfad8.png",
+    "static/media/Facebook Logo.png": "/static/media/Facebook Logo.5b4225fa4fc0717dea70.png",
+    "static/media/logo.png": "/static/media/logo.cf6289d69c72402634b2.png",
     "index.html": "/index.html",
-    "main.3f9efff1.css.map": "/static/css/main.3f9efff1.css.map",
-    "main.0dd34509.js.map": "/static/js/main.0dd34509.js.map",
+    "main.0b1d097b.css.map": "/static/css/main.0b1d097b.css.map",
+    "main.2ca98307.js.map": "/static/js/main.2ca98307.js.map",
     "377.7a10fb4b.chunk.js.map": "/static/js/377.7a10fb4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f9efff1.css",
-    "static/js/main.0dd34509.js"
+    "static/css/main.0b1d097b.css",
+    "static/js/main.2ca98307.js"
   ]
 }
