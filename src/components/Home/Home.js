@@ -83,8 +83,10 @@ function Home() {
       <MediaQuery minWidth={1290}>
 
         <Container className="videoContainer">
-          <video className="videoElement" src={MainClip} autoPlay loop muted />
+          {/* <video className="videoElement" src={MainClip} autoPlay loop muted /> */}
           {/* <video className="videoElement" src={MainClip} loop muted /> */}
+          <Image className="videoElement" src={HomeImage} />
+
 
           <Container>
             <Row className="videoContent">
