@@ -10,6 +10,8 @@
 
 .linkColor {
   color: #6885db;
+  font-weight: 500;
+  padding-top: 10px;
 }
 
 .linkColor:hover {
@@ -18,4 +20,24 @@
 
 .logoSize {
   width: 25vh;
+}
+
+.navInfo {
+  color: rgb(255, 78, 78);
+  font-weight: bolder;
+  padding-top: 10px;
+
+}
+
+.navButton {
+  background-color: #254093;
+  color: white;
+  border-color: #254093;
+}
+
+.navButton:hover {
+  background-color: #ffffff;
+  border-color: #254093;
+  color: #254093;
+
 }

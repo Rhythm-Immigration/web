@@ -1,11 +1,11 @@
 .videoContainer {
   width: 100%;
-  height: 90vh;
+  height: 100%;
 }
 
 .videoElement {
   width: 100%;
-  height: 100%;
+  height: 70vh;
   object-fit: cover;
 }
 
@@ -15,19 +15,20 @@
 }
 
 .videoContent {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 27%;
   top: 0;
-  margin-top: 73vh;
+  /* margin-top: 73vh; */
   margin-left: 0%;
   padding: 2%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  color:rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.5);
+  color:#254093;
+  background-color: #DEE4F7;
+  font-size: larger;
 }
 
 .videoContainerMobile {
@@ -86,26 +87,10 @@
   margin-left: 5%;
   margin-right: 5%;
   border-width: 5px;
-  border-radius: 1.75%;
+  border-radius: 5%;
   border-color: #254093;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-weight:700;
-}
-
-.slideBoxMobile{
-  width: 100%;
-  height: 33vh;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  border-width: 5px;
-  border-radius: 1.75%;
-  border-color: #254093;
+  background-color: #254093;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,7 +104,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #254093;
+  border-color: #254093;
+  border-width: 4px;
+  border-radius: 5%;
+  background-color: #ffffff;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -133,13 +121,13 @@
 .overlayText {
   width: 100%;
   height: 100%;
-overflow: hidden;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  color: aliceblue;
+  color:#254093;
 
 }
 
