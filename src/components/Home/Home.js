@@ -11,6 +11,8 @@ import Form from "react-bootstrap/Form";
 import Image from "react-bootstrap/Image";
 import HomeImage from "../../assets/images/homeImage.png";
 import ReviewBackground from "../../assets/images/review/people1.jpg";
+import ReviewBackground065 from "../../assets/images/review/people065.jpg";
+import ReviewBackgroundTint from "../../assets/images/review/peopleTint.jpg";
 // import MainClip from "../../assets/videos/main.mp4";
 import "./Home.css";
 import { InputGroup } from "react-bootstrap";
@@ -284,7 +286,7 @@ function Home() {
         </Row>
       </Container>
 
-      <Container className="reviewContainer" style={{ backgroundImage: `url(${ReviewBackground})` }}>
+      <Container className="reviewContainer" style={{ backgroundImage: `url(${ReviewBackground065})` }}>
         <h1 className="testimonialsTitle">CLIENT TESTIMONIALS</h1>
         <Carousel variant="dark">
 
