@@ -24,7 +24,7 @@ class Footer extends Component {
                     < link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"></link>
                     <Container>
                         <Row>
-                            <Col sm>&#169; 2022 Rhythm Immigration</Col>
+                            <Col sm>&#169; 2023 Rhythm Immigration</Col>
 
 
 
