@@ -10,9 +10,9 @@ import Form from "react-bootstrap/Form";
 // import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Image from "react-bootstrap/Image";
 import HomeImage from "../../assets/images/homeImage.png";
-import ReviewBackground from "../../assets/images/review/people1.jpg";
+// import ReviewBackground from "../../assets/images/review/people1.jpg";
 import ReviewBackground065 from "../../assets/images/review/people065.jpg";
-import ReviewBackgroundTint from "../../assets/images/review/peopleTint.jpg";
+// import ReviewBackgroundTint from "../../assets/images/review/peopleTint.jpg";
 // import MainClip from "../../assets/videos/main.mp4";
 import "./Home.css";
 import { InputGroup } from "react-bootstrap";
@@ -292,10 +292,10 @@ function Home() {
 
           <Carousel.Item className="carouselSlide">
             <Container className="threeReviews">
-              <Row className="reviewRow">
+              <Row lg={4} md={1} sm={1} xs={1} className="reviewRow">
                 <Col className="reviewCol">
 
-                  <Row>
+                  <Row className="reviewTitleBox">
                     <Col xs="auto" className="reviewerLogo nameColor1">
                       K
                     </Col>
@@ -303,15 +303,15 @@ function Home() {
                       Karan Kataria
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="ratingBox">
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                   </Row>
-                  <Row>
-                    <p className="reviewText">Had a really great and amazing experience with Satinder at Rhythm Immigration.
+                  <Row className="reviewText">
+                    <p>Had a really great and amazing experience with Satinder at Rhythm Immigration.
                       She is super helpful and knowledgeable. We almost lost hopes about getting our parent’s visa after 3
                       rejections but she analyzed the file with detail and helped us arranging all the documents needed and
                       finally the visa was approved. We really appreciate her dedication towards her work. Forever grateful
@@ -320,21 +320,21 @@ function Home() {
                 </Col>
 
                 <Col className="reviewCol">
-                  <Row>
+                  <Row className="reviewTitleBox">
                     <Image className="reviewerLogo" src={GurtejReview} />
                     <Col className="reviewerName">
                       GURTEJ GILL
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="ratingBox">
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                   </Row>
-                  <Row>
-                    <p className="reviewText">
+                  <Row className="reviewText">
+                    <p>
                       Rhythm immigration represents among the highest levels of immigration service,
                       I have experienced. Information was accurate, responses to queries were turned around very fast. The service
                       is smooth and straightforward. All responses were prompt and professional. Satinder Grewal Ma'am was very
@@ -344,21 +344,21 @@ function Home() {
                 </Col>
 
                 <Col className="reviewCol">
-                  <Row>
+                  <Row className="reviewTitleBox">
                     <Image className="reviewerLogo" src={FrancoReview} />
                     <Col className="reviewerName">
                       Dayne Franco Ulloa
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="ratingBox">
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                   </Row>
-                  <Row>
-                    <p className="reviewText">
+                  <Row className="reviewText">
+                    <p>
                       My experience with Satinderjit at Rhythm Immigration was excellent.
                       We had many questions and they were all answered with knowledge and in a kind way.
                       What I appreciate the most was how detailed the application process was managed.
@@ -372,9 +372,9 @@ function Home() {
 
           <Carousel.Item className="carouselSlide">
             <Container className="threeReviews">
-              <Row className="reviewRow">
+              <Row lg={4} md={1} sm={1} xs={1} className="reviewRow">
                 <Col className="reviewCol">
-                  <Row>
+                  <Row className="reviewTitleBox">
                     <Col xs="auto" className="reviewerLogo nameColor2">
                       M
                     </Col>
@@ -382,15 +382,15 @@ function Home() {
                       Manjot Mann
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="ratingBox">
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                   </Row>
-                  <Row>
-                    <p className="reviewText">
+                  <Row className="reviewText">
+                    <p>
                       They helped me to apply for my grandparents Visitor Visa. Got their Visas approved within 2 months.
                       They helped me with my PR application. I am looking forward to get my citizenship  application done by them.
                       They are the best Immigration Consultants in entire Surrey area.
@@ -399,21 +399,21 @@ function Home() {
                 </Col>
 
                 <Col className="reviewCol">
-                  <Row>
+                  <Row className="reviewTitleBox">
                     <Image className="reviewerLogo" src={sKhehra} />
                     <Col className="reviewerName">
                       Satinder khehra
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="ratingBox">
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                   </Row>
-                  <Row>
-                    <p className="reviewText">
+                  <Row className="reviewText">
+                    <p>
                       Excellent service!!Rhythm Immigration worked on Vistor Visa application for 2 of my friends to whom I sponsored.
                       All our questions were answered very quickly and precisely. All documents and applications were submitted on time.
                       Everything was triple checked. They made us feel very confident about applications.Vistor visa application is approved
@@ -423,7 +423,7 @@ function Home() {
                 </Col>
 
                 <Col className="reviewCol">
-                  <Row>
+                  <Row className="reviewTitleBox">
                     <Col xs="auto" className="reviewerLogo nameColor3">
                       S
                     </Col>
@@ -431,15 +431,15 @@ function Home() {
                       Sukhwinder Singh
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="ratingBox">
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                   </Row>
-                  <Row>
-                    <p className="reviewText">
+                  <Row className="reviewText">
+                    <p>
                       I am so grateful for the excellent service provided by Rhythm Immigration. Satinder is always
                       quick to respond to all of my queries and provides updates on a regular basis. Finally, i got my
                       PGWP for (3years). Highly recommend their services.
@@ -452,9 +452,9 @@ function Home() {
 
           <Carousel.Item className="carouselSlide">
             <Container className="threeReviews">
-              <Row className="reviewRow">
+              <Row lg={4} md={1} sm={1} xs={1} className="reviewRow">
                 <Col className="reviewCol">
-                  <Row>
+                  <Row className="reviewTitleBox">
                     <Col xs="auto" className="reviewerLogo nameColor4">
                       S
                     </Col>
@@ -462,15 +462,15 @@ function Home() {
                       Sukhveer Singh
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="ratingBox">
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                   </Row>
-                  <Row>
-                    <p className="reviewText">
+                  <Row className="reviewText">
+                    <p>
                       I worked with rhythm immigration. It was a wonderful experience.
                       I had to change the college after having so many difficulties in previous college in canada.
                       I knew no one here , so I approached to them and it was a right decision.
@@ -481,7 +481,7 @@ function Home() {
                 </Col>
 
                 <Col className="reviewCol">
-                  <Row>
+                  <Row className="reviewTitleBox">
                     <Col xs="auto" className="reviewerLogo nameColor5">
                       A
                     </Col>
@@ -489,15 +489,15 @@ function Home() {
                       Abhishek Gupta
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="ratingBox">
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                   </Row>
-                  <Row>
-                    <p className="reviewText">
+                  <Row className="reviewText">
+                    <p>
                       I'd highly recommend Satinder ma'am for any sort of immigration related query. Her awareness and
                       way of tackling certain situations are strictly professional, ensuring desired results.
                     </p>
@@ -505,21 +505,21 @@ function Home() {
                 </Col>
 
                 <Col className="reviewCol">
-                  <Row>
+                  <Row className="reviewTitleBox">
                     <Image className="reviewerLogo" src={James} />
                     <Col className="reviewerName">
                       James Fitzgerald
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="ratingBox">
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                   </Row>
-                  <Row>
-                    <p className="reviewText">
+                  <Row className="reviewText">
+                    <p>
                       Thanks for the help Rhythm Immigration Consultancy Services.
                     </p>
                   </Row>
@@ -530,23 +530,23 @@ function Home() {
 
           <Carousel.Item className="carouselSlide">
             <Container className="threeReviews">
-              <Row className="reviewRow">
+              <Row lg={4} md={1} sm={1} xs={1} className="reviewRow">
                 <Col className="reviewCol">
-                  <Row>
+                  <Row className="reviewTitleBox">
                     <Image className="reviewerLogo" src={Dhwani} />
                     <Col className="reviewerName">
                       Dhwani Purohit
                     </Col>
                   </Row>
-                  <Row>
+                  <Row className="ratingBox">
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                     <Image className="ratingStar" src={StarIcon} />
                   </Row>
-                  <Row>
-                    <p className="reviewText">
+                  <Row className="reviewText">
+                    <p>
                       I had an overall good experience with Satinder. She is very professional and particular with her work.
                       She guided me in a right direction. Thank you Satinder. 😊 I recommend her.
                     </p>
