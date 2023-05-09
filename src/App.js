@@ -5,10 +5,18 @@ import './App.css';
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
-import Projects from "./components/Projects/Projects"
+// import Projects from "./components/Projects/Projects"
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import DocumentMeta from 'react-document-meta';
 import Services from "./components/Services/Services";
+import Blogs from "./components/Blogs/Blogs";
+import Blog1 from "./components/Blogs/Data/Blog1";
+import PGWPextension from "./components/Blogs/Data/PGWPextension";
+import AgriBlog from "./components/Blogs/Data/AgriBlog";
+import EducationPoints from "./components/Blogs/Data/EducationPoints";
+import Draws from "./components/Draws/Draws";
+import ExpressEntry from "./components/Draws/DrawTables/ExpressEntry";
+import BCpnp from "./components/Draws/DrawTables/BCpnp";
 // import FavIcon from "./assets/Logos/favicon.png";
 
 
@@ -36,8 +44,22 @@ class App extends Component {
 
 
             <Route exact path="/"><Home /><Footer /></Route>
-            <Route path="/projects"><Projects /><Footer /></Route>
+            {/* <Route path="/projects"><Projects /><Footer /></Route> */}
             <Route path="/services"><Services /><Footer /></Route>
+
+            <Route path="/blogs"><Blogs /><Footer /></Route>
+            <Route path="/blog/empp"><Blog1 /><Footer /></Route>
+            <Route path="/blog/pgwp-extension"><PGWPextension /><Footer /></Route>
+            <Route path="/blog/agri-food"><AgriBlog /><Footer /></Route>
+            <Route path="/blog/education-points"><EducationPoints /><Footer /></Route>
+
+            <Route path="/draws"><Draws />
+
+              <Route path="/draws/express-entry"><ExpressEntry /> </Route>
+              <Route path="/draws/bc-pnp"><BCpnp /> </Route>
+              <Route path="/draws/tronto-pnp"><Blog1 /> </Route>
+
+              <Footer /></Route>
 
             {/* <Route path="/faq"><Faq /><Footer /></Route>
           <Route path="/info"><Info /><Footer /></Route>

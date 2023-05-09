@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import Row from "react-bootstrap/Row";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
@@ -21,13 +22,34 @@ class Navigation extends Component {
                     <Navbar collapseOnSelect expand="lg" className="" >
                         <Container>
                             <Navbar.Brand href='/#/'><Image className="logoSize" src={Logo} /> </Navbar.Brand><Image className="logoSize" src={RCIC} />
+                            {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
+                            {/* <Navbar.Collapse id="responsive-navbar-nav"> */}
+                            <Nav className="ml-auto">
+                                {/* <Nav.Link href='/#/'><h4 className="linkColor">HOME</h4></Nav.Link> */}
+                                {/* <Nav.Link href='/#/services'><h4 className="linkColor">OUR SERVICES</h4></Nav.Link> */}
+                                <Nav.Link href=''><h4 className="navInfo">FREE INITIAL CONSULTATION</h4></Nav.Link>
+                                <Nav.Link href='tel:+16049061717'><Button className="navButton" variant="outline-primary">Call: +1 (604) 906-1717</Button></Nav.Link>
+
+
+                                {/* <Nav.Link href='/#/projects'><h4 className="linkColor">About Us</h4></Nav.Link> */}
+                                {/* <Nav.Link href="#pricing"><h4 className="linkColor">ASSESSMENT</h4></Nav.Link> */}
+                            </Nav>
+                            {/* </Navbar.Collapse> */}
+                        </Container>
+                    </Navbar>
+                </div>
+                <Container>
+                    <Navbar collapseOnSelect expand="lg" variant="dark" className="" sticky="top">
+                        <Container>
+
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
-                                <Nav className="ml-auto">
+                                <Nav className="m-auto">
                                     <Nav.Link href='/#/'><h4 className="linkColor">HOME</h4></Nav.Link>
                                     <Nav.Link href='/#/services'><h4 className="linkColor">OUR SERVICES</h4></Nav.Link>
-                                    <Nav.Link href=''><h4 className="navInfo">FREE INITIAL CONSULTATION</h4></Nav.Link>
-                                    <Nav.Link href='tel:+16049061717'><Button className="navButton" variant="outline-primary">Call: +1 (604) 906-1717</Button></Nav.Link>
+                                    <Nav.Link href='/#/blogs'><h4 className="linkColor">BLOGS</h4></Nav.Link>
+                                    <Nav.Link href='/#/draws'><h4 className="linkColor">EXPRESS ENTRY DRAWS</h4></Nav.Link>
+
 
 
                                     {/* <Nav.Link href='/#/projects'><h4 className="linkColor">About Us</h4></Nav.Link> */}
@@ -36,7 +58,8 @@ class Navigation extends Component {
                             </Navbar.Collapse>
                         </Container>
                     </Navbar>
-                </div></div>
+                </Container>
+            </div>
         )
     };
 };

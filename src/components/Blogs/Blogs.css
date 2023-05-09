@@ -1,0 +1,180 @@
+.rootContainer {
+    padding: 5% 10% 5% 10%;
+}
+
+.blogHeading {
+font-family:Verdana;
+font-feature-settings:"cpsp";
+letter-spacing: 3px;
+padding-bottom: 20px;
+}
+
+.moreBlogHeading {
+    font-family:Verdana;
+    font-feature-settings:"cpsp";
+    letter-spacing: 3px;
+    padding: 100px 0 20px 0;
+}
+
+.linkNoDecor {
+    text-decoration: none;
+}
+
+.topBox {
+    margin: 0 0 1.5% 0;
+    /* width: 100%; */
+    height: 47vh;
+    background-image:
+    linear-gradient(to left, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)),
+    url('https://ik.imagekit.io/oow6a1gal/Rhythm/blog1.jpg?updatedAt=1680339812269');
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blogBox {
+    margin: 1.5% 0 1.5% 0;
+    padding-top: 10%;
+    /* width: 80%; */
+    height: 37vh;
+    background-image:
+    linear-gradient(to left, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.832)),
+    url('https://ik.imagekit.io/oow6a1gal/Rhythm/blog2.jpg?updatedAt=1680486567930');
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blogBox2 {
+    margin: 1.5% 0 1.5% 0;
+    padding-top: 10%;
+    /* width: 80%; */
+    height: 37vh;
+    background-image:
+    linear-gradient(to left, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.832)),
+    url('https://ik.imagekit.io/oow6a1gal/Rhythm/adrian-infernus-BN6iQEVN0ZQ-unsplash.jpg?updatedAt=1683607065299');
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blogBoxImage {
+    /* position: relative; */
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    color: white;
+
+    z-index: -1;
+}
+
+.blogsListImage {
+    padding: 7%;
+}
+
+.blogsListInfo {
+    /* padding: 7% 0 7% 0; */
+    /* position: relative; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.blogsListInfoContents {
+    padding: 0% 5%;
+}
+
+.textOverlay {
+    padding: 2% 5%;
+    color: rgb(250, 250, 250);
+    font-family: Verdana;
+    letter-spacing: 3px;
+
+}
+
+
+.textOverlayTitle {
+    padding: 2% 5%;
+    width: 50%;
+    color: rgb(250, 250, 250);
+    font-family: Verdana;
+    font-size: xx-large;
+    line-height: 1.3;
+    font-weight: 300;
+    letter-spacing: -.07em;
+}
+
+.textOverlayDate {
+    padding: 2% 5%;
+    color: rgb(250, 250, 250);
+    font-family: Verdana;
+    font-size: smaller;
+}
+
+.blogBoxTitle {
+    /* position: absolute;
+    bottom: 20%; */
+    padding: 2% 5%;
+    color: rgb(250, 250, 250);
+    font-family: Verdana;
+    font-size: xx-large;
+    line-height: 1.3;
+    font-weight: 300;
+    letter-spacing: -.07em;
+}
+
+.blogBoxDate {
+    /* position: absolute;
+    bottom: 1%; */
+    padding: 2% 5%;
+    color: rgb(250, 250, 250);
+    font-family: Verdana;
+    font-size: smaller;
+}
+
+.blogListTitle {
+    /* position: absolute;
+    bottom: 20%; */
+    /* color: rgb(250, 250, 250); */
+    /* padding: 0 5%; */
+    font-family: Verdana;
+    font-size: x-large;
+    line-height: 1.3;
+    font-weight: 300;
+    letter-spacing: -.07em;
+}
+
+.blogListDate {
+    /* position: absolute;
+    bottom: 1%; */
+    /* padding: 0% 5%; */
+    /* color: rgb(250, 250, 250); */
+    font-family: Verdana;
+    font-size: smaller;
+}
+
+.BlogTitle {
+    /* padding: 2% 5%; */
+    /* width: 50%; */
+    font-family: Verdana;
+    font-size:xx-large;
+    line-height: 1.3;
+    font-weight: 300;
+    letter-spacing: -.07em;
+}
+
+.BlogDate {
+    padding: 2% 0%;
+    font-family: Verdana;
+    font-size:medium;
+ }
+
+ /* .BlogImage {
+    width: 75%;
+ } */
+
+ .BlogText {
+    padding: 0 0 5% 0;
+    font-family: Verdana;
+    font-size:large;
+ }

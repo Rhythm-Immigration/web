@@ -9,13 +9,13 @@
 }
 
 .linkColor {
-  color: #6885db;
-  font-weight: 500;
-  padding-top: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  /* padding-top: 10px; */
 }
 
 .linkColor:hover {
-  color: #254093;
+  color: #6885db;
 }
 
 .logoSize {
