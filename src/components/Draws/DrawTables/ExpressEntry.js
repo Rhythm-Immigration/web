@@ -38,7 +38,7 @@ function ExpressEntry() {
                 <Col md={2}>22 April 2023 at 19:46:58 UTC</Col>
             </Row>
 
-            <Row className="tableDataColA">
+            <Row className="tableDataColB">
                 <Col md={2}>#246</Col>
                 <Col md={2}>12 April, 2023</Col>
                 <Col md={2}>486</Col>
