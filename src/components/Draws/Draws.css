@@ -1,3 +1,7 @@
+.drawsRootCon {
+  padding: 5% 0;
+}
+
 .tableContainer {
     padding: 0 10% 5% 10%;
 }
@@ -28,6 +32,7 @@ text-align: center;
   .tableHeader {
     margin: auto;
     padding: 0.5% 0 0.5% 0;
+    min-width: 600px;
     background-color: #254093;
     color: aliceblue;
     font-weight: bold;
@@ -35,11 +40,12 @@ text-align: center;
 
   .tableHeaderCol {
     margin: auto;
-  }
+}
 
   .tableDataColA {
     margin: auto;
     padding: 0.5% 0 0.5% 0;
+    min-width: 600px;
     background-color: #EFF1FB;
   }
 
@@ -47,5 +53,10 @@ text-align: center;
   .tableDataColB {
     margin: auto;
     padding: 0.5% 0 0.5% 0;
+    min-width: 600px;
     background-color: #DEE4F7;
+  }
+
+  .tableOverflow {
+    overflow: auto;
   }

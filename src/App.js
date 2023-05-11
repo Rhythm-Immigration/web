@@ -14,6 +14,8 @@ import Blog1 from "./components/Blogs/Data/Blog1";
 import PGWPextension from "./components/Blogs/Data/PGWPextension";
 import AgriBlog from "./components/Blogs/Data/AgriBlog";
 import EducationPoints from "./components/Blogs/Data/EducationPoints";
+import SkilledAmount from "./components/Blogs/Data/SkilledAmount";
+
 import Draws from "./components/Draws/Draws";
 import ExpressEntry from "./components/Draws/DrawTables/ExpressEntry";
 import BCpnp from "./components/Draws/DrawTables/BCpnp";
@@ -52,6 +54,7 @@ class App extends Component {
             <Route path="/blog/pgwp-extension"><PGWPextension /><Footer /></Route>
             <Route path="/blog/agri-food"><AgriBlog /><Footer /></Route>
             <Route path="/blog/education-points"><EducationPoints /><Footer /></Route>
+            <Route path="/blog/skilled-immigrant-amount"><SkilledAmount /><Footer /></Route>
 
             <Route path="/draws"><Draws />
 

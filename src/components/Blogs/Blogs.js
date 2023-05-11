@@ -107,6 +107,30 @@ function Blogs() {
 
                         </Col>
                     </Row>
+
+
+                    <Row>
+                        <Col md={6}>
+                            <a className="linkNoDecor" href='/#/blog/skilled-immigrant-amount'>
+                                <Image className="blogsListImage m-auto" src="https://ik.imagekit.io/oow6a1gal/Rhythm/amount-canada.jpg?updatedAt=1683777843915" />
+                            </a>
+                        </Col>
+                        <Col md={6} className="blogsListInfo">
+
+                            <Container className="blogsListInfoContents">
+                                <Row>
+                                    <h1 className="blogListTitle ">Minimum amount required to immigrate to Canada for skilled immigrants (Express Entry)</h1>
+                                </Row>
+                                <Row>
+                                    <p className="blogListDate">Updated as on 25 April, 2023</p>
+                                </Row>
+                                <a href="/#/blog/skilled-immigrant-amount"><Row>Read More</Row></a>
+                            </Container>
+
+
+
+                        </Col>
+                    </Row>
                 </Container>
 
 
