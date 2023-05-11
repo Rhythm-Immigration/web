@@ -64,8 +64,10 @@ function AgriBlog() {
 
 
             <Row>
-                <Button className="directionsButton" onClick={() => window.history.back()}>Back</Button>
+                <a href="/#/blogs"> <Button className="directionsButton">Back</Button> </a>
             </Row>
+
+
 
         </Container >
     )
