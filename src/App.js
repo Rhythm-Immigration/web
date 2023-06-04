@@ -15,6 +15,10 @@ import PGWPextension from "./components/Blogs/Data/PGWPextension";
 import AgriBlog from "./components/Blogs/Data/AgriBlog";
 import EducationPoints from "./components/Blogs/Data/EducationPoints";
 import SkilledAmount from "./components/Blogs/Data/SkilledAmount";
+import StudyLength from "./components/Blogs/Data/StudyLength";
+import EnglishLanguage from "./components/Blogs/Data/EnglishLanguage";
+import CategoryBased from "./components/Blogs/Data/CategoryBased";
+import ReuniteFamily from "./components/Blogs/Data/ReuniteFamily";
 
 import Draws from "./components/Draws/Draws";
 import ExpressEntry from "./components/Draws/DrawTables/ExpressEntry";
@@ -55,6 +59,11 @@ class App extends Component {
             <Route path="/blog/agri-food"><AgriBlog /><Footer /></Route>
             <Route path="/blog/education-points"><EducationPoints /><Footer /></Route>
             <Route path="/blog/skilled-immigrant-amount"><SkilledAmount /><Footer /></Route>
+            <Route path="/blog/study-length"><StudyLength /><Footer /></Route>
+            <Route path="/blog/english-language"><EnglishLanguage /><Footer /></Route>
+            <Route path="/blog/category-based"><CategoryBased /><Footer /></Route>
+            <Route path="/blog/reunite-family"><ReuniteFamily /><Footer /></Route>
+
 
             <Route path="/draws"><Draws />
 

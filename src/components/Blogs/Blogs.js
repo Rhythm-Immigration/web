@@ -31,16 +31,16 @@ function Blogs() {
                 </Row>
 
 
-                <a className="linkNoDecor" href='/#/blog/empp'>
+                <a className="linkNoDecor" href='/#/blog/category-based'>
                     <Container className="topBox" >
                         <Row>
                             <h5 className="textOverlay">TRENDING</h5>
                         </Row>
                         <Row>
-                            <h1 className="textOverlayTitle">Launch of new economic pathway under the Economic Mobility Pathways Pilot (EMPP)</h1>
+                            <h1 className="textOverlayTitle">Canada has finally launched the first-ever new process of category-based draws after long wait and speculations.</h1>
                         </Row>
                         <Row>
-                            <p className="textOverlayDate">27 March, 2023</p>
+                            <p className="textOverlayDate">31 May, 2023</p>
                         </Row>
                     </Container>
                 </a>
@@ -50,13 +50,13 @@ function Blogs() {
                 <Container>
                     <Row>
                         <Col md={6} >
-                            <a className="linkNoDecor" href='/#/blog/pgwp-extension'>
+                            <a className="linkNoDecor" href='/#/blog/english-language'>
                                 <Container className="blogBox">
                                     <Row className="">
-                                        <h1 className="blogBoxTitle">Extension of Post Graduate Work Permits for up to 18 months.</h1>
+                                        <h1 className="blogBoxTitle">IRCC approves new English Language test for SDS (Student Direct Stream) applicants</h1>
                                     </Row>
                                     <Row className="">
-                                        <p className="blogBoxDate">17 March, 2023</p>
+                                        <p className="blogBoxDate">30 May, 2023</p>
                                     </Row>
                                 </Container>
                             </a>
@@ -64,13 +64,13 @@ function Blogs() {
 
 
                         <Col md={6} >
-                            <a className="linkNoDecor" href='/#/blog/agri-food'>
+                            <a className="linkNoDecor" href='/#/blog/study-length'>
                                 <Container className="blogBox2">
                                     <Row>
-                                        <h1 className="blogBoxTitle">Agri-Food Pilot update</h1>
+                                        <h1 className="blogBoxTitle">Length of online studies counted towards your Post Graduate Work Permit</h1>
                                     </Row>
                                     <Row>
-                                        <p className="blogBoxDate">08 May, 2023</p>
+                                        <p className="blogBoxDate">30 May, 2023</p>
                                     </Row>
                                 </Container>
                             </a>
@@ -85,6 +85,27 @@ function Blogs() {
                 </Row>
 
                 <Container>
+
+                    <Row>
+                        <Col md={6}>
+                            <a className="linkNoDecor" href='/#/blog/reunite-family'>
+                                <Image className="blogsListImage m-auto" src="https://ik.imagekit.io/oow6a1gal/Rhythm/reunite-family.jpg?updatedAt=1685915528285" />
+                            </a>
+                        </Col>
+                        <Col md={6} className="blogsListInfo">
+
+                            <Container className="blogsListInfoContents">
+                                <Row>
+                                    <h1 className="blogListTitle ">Reuniting family members and extending work permits for additional 18 months</h1>
+                                </Row>
+                                <Row>
+                                    <p className="blogListDate">26 May, 2023</p>
+                                </Row>
+                                <a href="/#/blog/reunite-family"><Row>Read More</Row></a>
+                            </Container>
+                        </Col>
+                    </Row>
+
                     <Row>
                         <Col md={6}>
                             <a className="linkNoDecor" href='/#/blog/education-points'>
@@ -102,9 +123,6 @@ function Blogs() {
                                 </Row>
                                 <a href="/#/blog/education-points"><Row>Read More</Row></a>
                             </Container>
-
-
-
                         </Col>
                     </Row>
 
@@ -126,11 +144,75 @@ function Blogs() {
                                 </Row>
                                 <a href="/#/blog/skilled-immigrant-amount"><Row>Read More</Row></a>
                             </Container>
-
-
-
                         </Col>
                     </Row>
+
+
+                    <Row>
+                        <Col md={6}>
+                            <a className="linkNoDecor" href='/#/blog/agri-food'>
+                                <Image className="blogsListImage m-auto" src="https://ik.imagekit.io/oow6a1gal/Rhythm/adrian-infernus-BN6iQEVN0ZQ-unsplash.jpg?updatedAt=1683607065299" />
+                            </a>
+                        </Col>
+                        <Col md={6} className="blogsListInfo">
+
+                            <Container className="blogsListInfoContents">
+                                <Row>
+                                    <h1 className="blogListTitle ">Agri-Food Pilot update</h1>
+                                </Row>
+                                <Row>
+                                    <p className="blogListDate">08 May, 2023</p>
+                                </Row>
+                                <a href="/#/blog/agri-food"><Row>Read More</Row></a>
+                            </Container>
+                        </Col>
+                    </Row>
+
+
+                    <Row>
+                        <Col md={6}>
+                            <a className="linkNoDecor" href='/#/blog/pgwp-extension'>
+                                <Image className="blogsListImage m-auto" src="https://ik.imagekit.io/oow6a1gal/Rhythm/blog2.jpg?updatedAt=1680486567930" />
+                            </a>
+                        </Col>
+                        <Col md={6} className="blogsListInfo">
+
+                            <Container className="blogsListInfoContents">
+                                <Row>
+                                    <h1 className="blogListTitle ">Extension of Post Graduate Work Permits for up to 18 months.</h1>
+                                </Row>
+                                <Row>
+                                    <p className="blogListDate">17 March, 2023</p>
+                                </Row>
+                                <a href="/#/blog/pgwp-extension"><Row>Read More</Row></a>
+                            </Container>
+                        </Col>
+                    </Row>
+
+
+                    <Row>
+                        <Col md={6}>
+                            <a className="linkNoDecor" href='/#/blog/empp'>
+                                <Image className="blogsListImage m-auto" src="https://ik.imagekit.io/oow6a1gal/Rhythm/blog1.jpg?updatedAt=1680339812269" />
+                            </a>
+                        </Col>
+                        <Col md={6} className="blogsListInfo">
+
+                            <Container className="blogsListInfoContents">
+                                <Row>
+                                    <h1 className="blogListTitle ">Launch of new economic pathway under the Economic Mobility Pathways Pilot (EMPP)</h1>
+                                </Row>
+                                <Row>
+                                    <p className="blogListDate">27 March, 2023</p>
+                                </Row>
+                                <a href="/#/blog/empp"><Row>Read More</Row></a>
+                            </Container>
+                        </Col>
+                    </Row>
+
+
+
+
                 </Container>
 
 
