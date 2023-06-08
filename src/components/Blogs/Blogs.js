@@ -31,16 +31,16 @@ function Blogs() {
                 </Row>
 
 
-                <a className="linkNoDecor" href='/#/blog/category-based'>
+                <a className="linkNoDecor" href='/#/blog/eta-program'>
                     <Container className="topBox" >
                         <Row>
                             <h5 className="textOverlay">TRENDING</h5>
                         </Row>
                         <Row>
-                            <h1 className="textOverlayTitle">Canada has finally launched the first-ever new process of category-based draws after long wait and speculations.</h1>
+                            <h1 className="textOverlayTitle">Eligible travellers from 13 newly added countries qualify for visa-free air travel to Canada through eTA program</h1>
                         </Row>
                         <Row>
-                            <p className="textOverlayDate">31 May, 2023</p>
+                            <p className="textOverlayDate">06 June, 2023</p>
                         </Row>
                     </Container>
                 </a>
@@ -49,9 +49,23 @@ function Blogs() {
 
                 <Container>
                     <Row>
+
+                        <Col md={6} >
+                            <a className="linkNoDecor" href='/#/blog/category-based'>
+                                <Container className="blogBox">
+                                    <Row>
+                                        <h1 className="blogBoxTitle">Canada has finally launched the first-ever new process of category-based draws after long wait and speculations</h1>
+                                    </Row>
+                                    <Row>
+                                        <p className="blogBoxDate">31 May, 2023</p>
+                                    </Row>
+                                </Container>
+                            </a>
+                        </Col>
+
                         <Col md={6} >
                             <a className="linkNoDecor" href='/#/blog/english-language'>
-                                <Container className="blogBox">
+                                <Container className="blogBox2">
                                     <Row className="">
                                         <h1 className="blogBoxTitle">IRCC approves new English Language test for SDS (Student Direct Stream) applicants</h1>
                                     </Row>
@@ -63,18 +77,6 @@ function Blogs() {
                         </Col>
 
 
-                        <Col md={6} >
-                            <a className="linkNoDecor" href='/#/blog/study-length'>
-                                <Container className="blogBox2">
-                                    <Row>
-                                        <h1 className="blogBoxTitle">Length of online studies counted towards your Post Graduate Work Permit</h1>
-                                    </Row>
-                                    <Row>
-                                        <p className="blogBoxDate">30 May, 2023</p>
-                                    </Row>
-                                </Container>
-                            </a>
-                        </Col>
                     </Row>
                 </Container>
 
@@ -85,6 +87,26 @@ function Blogs() {
                 </Row>
 
                 <Container>
+
+                    <Row>
+                        <Col md={6}>
+                            <a className="linkNoDecor" href='/#/blog/study-length'>
+                                <Image className="blogsListImage m-auto" src="https://ik.imagekit.io/oow6a1gal/Rhythm/studyLength.jpg?updatedAt=1685912201886" />
+                            </a>
+                        </Col>
+                        <Col md={6} className="blogsListInfo">
+
+                            <Container className="blogsListInfoContents">
+                                <Row>
+                                    <h1 className="blogListTitle ">Length of online studies counted towards your Post Graduate Work Permit</h1>
+                                </Row>
+                                <Row>
+                                    <p className="blogListDate">30 May, 2023</p>
+                                </Row>
+                                <a href="/#/blog/study-length"><Row>Read More</Row></a>
+                            </Container>
+                        </Col>
+                    </Row>
 
                     <Row>
                         <Col md={6}>

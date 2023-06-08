@@ -4,10 +4,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
+import $ from 'jquery';
 
 import "../Blogs.css";
 
 function ReuniteFamily() {
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
 
 
     return (

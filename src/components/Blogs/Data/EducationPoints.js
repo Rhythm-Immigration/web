@@ -4,15 +4,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
+import $ from 'jquery';
 
 import "../Blogs.css";
 
 function EducationPoints() {
 
-    // const [show, setShow] = React.useState(false);
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
 
-    // const handleClose = () => setShow(false);
-    // const handleShow = () => setShow(true);
 
 
     return (

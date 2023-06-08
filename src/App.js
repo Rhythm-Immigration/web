@@ -19,6 +19,7 @@ import StudyLength from "./components/Blogs/Data/StudyLength";
 import EnglishLanguage from "./components/Blogs/Data/EnglishLanguage";
 import CategoryBased from "./components/Blogs/Data/CategoryBased";
 import ReuniteFamily from "./components/Blogs/Data/ReuniteFamily";
+import EtaProgram from "./components/Blogs/Data/etaProgram";
 
 import Draws from "./components/Draws/Draws";
 import ExpressEntry from "./components/Draws/DrawTables/ExpressEntry";
@@ -62,8 +63,8 @@ class App extends Component {
             <Route path="/blog/study-length"><StudyLength /><Footer /></Route>
             <Route path="/blog/english-language"><EnglishLanguage /><Footer /></Route>
             <Route path="/blog/category-based"><CategoryBased /><Footer /></Route>
+            <Route path="/blog/eta-program"><EtaProgram /><Footer /></Route>
             <Route path="/blog/reunite-family"><ReuniteFamily /><Footer /></Route>
-
 
             <Route path="/draws"><Draws />
 
