@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,6 +9,27 @@ import "../Draws.css";
 
 function ExpressEntry() {
 
+    const [data, setData] = useState([]);
+
+    const fetchData = () => {
+        fetch(`https://www.canada.ca/content/dam/ircc/documents/json/ee_rounds_123_en.json`)
+            .then((response) => response.json())
+            .then((actualData) => {
+                // console.log(actualData.rounds.slice(0, 10));
+                // drawData = actualData.rounds;
+                setData(actualData.rounds.slice(0, 10));
+                // console.log(actualData);
+                // console.log(data);
+            })
+            .catch((err) => {
+                console.log(err.message);
+            });
+    };
+
+
+    useEffect(() => {
+        fetchData();
+    }, []);
 
     return (
         <Container className="tableContainer">
@@ -19,6 +40,45 @@ function ExpressEntry() {
             </Row>
 
             <Container className="tableOverflow">
+
+                <Row className="tableHeader">
+                    <Col className="tableHeaderCol"><h1>Draw No.</h1></Col>
+                    <Col className="tableHeaderCol"><h1>Draw Date</h1></Col>
+                    <Col className="tableHeaderCol"><h1>CRS</h1></Col>
+                    <Col className="tableHeaderCol"><h1>Program</h1></Col>
+                    <Col className="tableHeaderCol"><h1>No. of invitations issued</h1></Col>
+                    <Col className="tableHeaderCol"><h1>Tie Breaking Rule</h1></Col>
+                </Row>
+
+
+                {data.map((item, index) => (
+                    <Row key={index} className="tableDataColB">
+                        <Col >{item.drawNumber}</Col>
+                        <Col >{item.drawDateFull}</Col>
+                        <Col >{item.drawCRS}</Col>
+                        <Col >{item.drawName}</Col>
+                        <Col >{item.drawSize}</Col>
+                        <Col >{item.drawCutOff}</Col>
+                    </Row>
+                ))}
+
+
+
+
+                {/* ----------------------------------------------------------------------------------------- */}
+
+
+
+            </Container>
+
+
+
+
+
+
+
+
+            {/* <Container className="tableOverflow">
 
                 <Row className="tableHeader">
                     <Col className="tableHeaderCol"><h1>Draw No.</h1></Col>
@@ -138,11 +198,10 @@ function ExpressEntry() {
                 </Row>
 
 
-                {/* ----------------------------------------------------------------------------------------- */}
 
 
 
-            </Container>
+            </Container> */}
 
 
             {/* <Row>

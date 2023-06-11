@@ -55,6 +55,7 @@ text-align: center;
     padding: 0.5% 0 0.5% 0;
     min-width: 600px;
     background-color: #DEE4F7;
+    border-bottom: #254093 solid 1px;
   }
 
   .tableOverflow {
