@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.22a144f0.css",
-    "main.js": "/static/js/main.04a56c5e.js",
-    "static/js/377.7ad80154.chunk.js": "/static/js/377.7ad80154.chunk.js",
+    "main.css": "/static/css/main.5bce9d04.css",
+    "main.js": "/static/js/main.b8ced9dd.js",
+    "static/js/377.5ef3a928.chunk.js": "/static/js/377.5ef3a928.chunk.js",
     "static/media/homeImage.png": "/static/media/homeImage.b2350e05b4cfdfd84d8c.png",
     "static/media/people065.jpg": "/static/media/people065.4d291b40cb27adc5bf34.jpg",
     "static/media/InstaLogo.png": "/static/media/InstaLogo.f6ae0ba2d59d79a3e08d.png",
@@ -10,18 +10,20 @@
     "static/media/RCIClogo.png": "/static/media/RCIClogo.431b46f27d00c31bfad8.png",
     "static/media/Facebook Logo.png": "/static/media/Facebook Logo.5b4225fa4fc0717dea70.png",
     "static/media/gurtej.png": "/static/media/gurtej.a0fba384dca8aa5567f0.png",
+    "static/media/WAG.png": "/static/media/WAG.1ba9b9dbeec9cc7d3475.png",
     "static/media/sKhehra.png": "/static/media/sKhehra.b1daef3db9edbbe1bb6e.png",
     "static/media/logo.png": "/static/media/logo.cf6289d69c72402634b2.png",
     "static/media/Franco.png": "/static/media/Franco.fc6b4a0c4dda93f44690.png",
     "static/media/James.png": "/static/media/James.4432e4fd1866a492a037.png",
     "static/media/Dhwani.png": "/static/media/Dhwani.54dc2d03406d938c932a.png",
+    "static/media/WAW.png": "/static/media/WAW.dbf08ee36ed3bf1efb9e.png",
     "index.html": "/index.html",
-    "main.22a144f0.css.map": "/static/css/main.22a144f0.css.map",
-    "main.04a56c5e.js.map": "/static/js/main.04a56c5e.js.map",
-    "377.7ad80154.chunk.js.map": "/static/js/377.7ad80154.chunk.js.map"
+    "main.5bce9d04.css.map": "/static/css/main.5bce9d04.css.map",
+    "main.b8ced9dd.js.map": "/static/js/main.b8ced9dd.js.map",
+    "377.5ef3a928.chunk.js.map": "/static/js/377.5ef3a928.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22a144f0.css",
-    "static/js/main.04a56c5e.js"
+    "static/css/main.5bce9d04.css",
+    "static/js/main.b8ced9dd.js"
   ]
 }
