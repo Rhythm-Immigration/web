@@ -187,9 +187,23 @@ padding: 5%;
   color: #254093;
   border-color: #254093;
 }
-
 .directionsButton:hover {
   background-color: #254093;
+}
+
+.chatButton {
+  margin-top: 10px;
+  color: #25D366;
+  border-color: #25409300;
+}
+.chatButton:hover {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.whatsAppText {
+  display: inline-block;
+  font-weight: 600;
 }
 
 .landscapeForm {
@@ -356,9 +370,6 @@ border-radius: 6px;
 }
 
 
-
-
-
 .textControl {
   text-align: justify;
 }
@@ -426,3 +437,4 @@ border-radius: 6px;
   padding-top: 3%;
   width: 100%;
 }
+

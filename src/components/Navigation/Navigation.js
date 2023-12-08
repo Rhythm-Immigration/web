@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-// import Row from "react-bootstrap/Row";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
@@ -8,6 +9,7 @@ import RCIC from "../../assets/images/RCIClogo.png";
 import "./Navigation.css";
 import { Container, Image } from "react-bootstrap";
 import Logo from "../../assets/Logos/logo.png";
+import WhatsAppGreen from "../../assets/Logos/WAG.png"
 // import NavDropdown from "react-bootstrap/Navbar";
 
 
@@ -27,8 +29,27 @@ class Navigation extends Component {
                             <Nav className="ml-auto">
                                 {/* <Nav.Link href='/#/'><h4 className="linkColor">HOME</h4></Nav.Link> */}
                                 {/* <Nav.Link href='/#/services'><h4 className="linkColor">OUR SERVICES</h4></Nav.Link> */}
-                                <Nav.Link href=''><h4 className="navInfo">FREE INITIAL CONSULTATION</h4></Nav.Link>
-                                <Nav.Link href='tel:+16049061717'><Button className="navButton" variant="outline-primary">Call: +1 (604) 906-1717</Button></Nav.Link>
+
+                                {/* <Nav.Link href=''><h4 className="navInfo">FREE INITIAL CONSULTATION</h4></Nav.Link>
+                                <Nav.Link href='tel:+16049061717'><Button className="navButton" variant="outline-primary">Call | <Image className="wWhatsApplogo whatsApplogoSize" src={WhatsAppWhite} /> : +1 (604) 906-1717</Button></Nav.Link>
+                                <Nav.Link href='tel:+918847528783'><Button className="navButton" variant="outline-primary">Call | <Image className="whatsApplogoSize" src={WhatsAppGreen} /> : +91 88475-28783</Button></Nav.Link> */}
+
+                                <Row>
+                                    <Col>
+                                        <Nav.Link href='' className="navInfoLink"><h4 className="navInfo">FREE INITIAL CONSULTATION</h4></Nav.Link>
+                                    </Col>
+
+                                    <Col>
+                                        <Row>
+                                            <Nav.Link href='tel:+16049061717'><Button className="navButton" variant="outline-primary">Call | <Image className="whatsApplogoSize" src={WhatsAppGreen} /> +1 (604)906-1717</Button></Nav.Link>
+                                        </Row>
+                                        <Row>
+                                            <Nav.Link href='tel:+918847528783'><Button className="navButton" variant="outline-primary">Call | <Image className="whatsApplogoSize" src={WhatsAppGreen} /> +91 88475-28783</Button></Nav.Link>
+                                        </Row>
+                                    </Col>
+                                </Row>
+
+
 
 
                                 {/* <Nav.Link href='/#/projects'><h4 className="linkColor">About Us</h4></Nav.Link> */}

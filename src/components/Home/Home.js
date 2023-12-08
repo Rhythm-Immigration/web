@@ -18,6 +18,7 @@ import "./Home.css";
 import { InputGroup } from "react-bootstrap";
 // import ListGroup from 'react-bootstrap/ListGroup';
 import StarIcon from "../../assets/Logos/starIcon.png";
+import WhatsAppWhite from "../../assets/Logos/WAW.png"
 import GurtejReview from "../../assets/images/review/gurtej.png";
 import FrancoReview from "../../assets/images/review/Franco.png";
 import sKhehra from "../../assets/images/review/sKhehra.png";
@@ -169,13 +170,20 @@ function Home() {
                 <p>Contact Information</p>
               </Row>
               <Row>
-                <p>Mobile: 001 (604) 906-1717</p>
+                <p>+1 (604) 906-1717</p>
               </Row>
               <Row>
-                <p>Email: info@rhyhthmimmigration.consulting</p>
+                <p>+91 88475-28783</p>
               </Row>
               <Row>
-                <a href="tel:+16049061717"><Button className="directionsButton" variant="outline-primary">Call</Button></a>
+                <p>info@rhyhthmimmigration.consulting</p>
+              </Row>
+              <Row>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://wa.me/16049061717?text=Hello,%20I%20wanted%20to%20reach%20out%20regarding%20Immigration%20consultancy%20services"
+                ><Button className="chatButton" variant="outline-primary"><Image className="wWhatsApplogo" src={WhatsAppWhite} /> <p className="whatsAppText">Chat on WhatsApp</p></Button></a>
               </Row>
             </Row>
 

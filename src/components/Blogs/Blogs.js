@@ -31,46 +31,45 @@ function Blogs() {
                 </Row>
 
 
-                <a className="linkNoDecor" href='/#/blog/eta-program'>
+                <a className="linkNoDecor" href='/#/blog/revised-student-program'>
                     <Container className="topBox" >
                         <Row>
                             <h5 className="textOverlay">TRENDING</h5>
                         </Row>
                         <Row>
-                            <h1 className="textOverlayTitle">Eligible travellers from 13 newly added countries qualify for visa-free air travel to Canada through eTA program</h1>
+                            <h1 className="textOverlayTitle">Revised requirements for international students</h1>
                         </Row>
                         <Row>
-                            <p className="textOverlayDate">06 June, 2023</p>
+                            <p className="textOverlayDate">07 December, 2023</p>
                         </Row>
                     </Container>
                 </a>
-
 
 
                 <Container>
                     <Row>
 
                         <Col md={6} >
-                            <a className="linkNoDecor" href='/#/blog/category-based'>
+                            <a className="linkNoDecor" href='/#/blog/eta-program'>
                                 <Container className="blogBox">
                                     <Row>
-                                        <h1 className="blogBoxTitle">Canada has finally launched the first-ever new process of category-based draws after long wait and speculations</h1>
+                                        <h1 className="blogBoxTitle">Eligible travellers from 13 newly added countries qualify for visa-free air travel to Canada through eTA program</h1>
                                     </Row>
                                     <Row>
-                                        <p className="blogBoxDate">31 May, 2023</p>
+                                        <p className="blogBoxDate">06 June, 2023</p>
                                     </Row>
                                 </Container>
                             </a>
                         </Col>
 
                         <Col md={6} >
-                            <a className="linkNoDecor" href='/#/blog/english-language'>
+                            <a className="linkNoDecor" href='/#/blog/category-based'>
                                 <Container className="blogBox2">
-                                    <Row className="">
-                                        <h1 className="blogBoxTitle">IRCC approves new English Language test for SDS (Student Direct Stream) applicants</h1>
+                                    <Row>
+                                        <h1 className="blogBoxTitle">Canada has finally launched the first-ever new process of category-based draws after long wait and speculations</h1>
                                     </Row>
-                                    <Row className="">
-                                        <p className="blogBoxDate">30 May, 2023</p>
+                                    <Row>
+                                        <p className="blogBoxDate">31 May, 2023</p>
                                     </Row>
                                 </Container>
                             </a>
@@ -87,6 +86,26 @@ function Blogs() {
                 </Row>
 
                 <Container>
+
+                    <Row>
+                        <Col md={6}>
+                            <a className="linkNoDecor" href='/#/blog/english-language'>
+                                <Image className="blogsListImage m-auto" src="https://ik.imagekit.io/oow6a1gal/Rhythm/english-language_1_.jpg?updatedAt=1685914019159" />
+                            </a>
+                        </Col>
+                        <Col md={6} className="blogsListInfo">
+
+                            <Container className="blogsListInfoContents">
+                                <Row>
+                                    <h1 className="blogListTitle ">IRCC approves new English Language test for SDS (Student Direct Stream) applicants</h1>
+                                </Row>
+                                <Row>
+                                    <p className="blogListDate">30 May, 2023</p>
+                                </Row>
+                                <a href="/#/blog/english-language"><Row>Read More</Row></a>
+                            </Container>
+                        </Col>
+                    </Row>
 
                     <Row>
                         <Col md={6}>
