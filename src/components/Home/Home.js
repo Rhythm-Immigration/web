@@ -19,6 +19,7 @@ import { InputGroup } from "react-bootstrap";
 // import ListGroup from 'react-bootstrap/ListGroup';
 import StarIcon from "../../assets/Logos/starIcon.png";
 import WhatsAppWhite from "../../assets/Logos/WAW.png"
+// import EmailLogo from "../../assets/Logos/envelope-solid.svg";
 import GurtejReview from "../../assets/images/review/gurtej.png";
 import FrancoReview from "../../assets/images/review/Franco.png";
 import sKhehra from "../../assets/images/review/sKhehra.png";
@@ -187,7 +188,7 @@ function Home() {
               </Row>
             </Row>
 
-            <Row className="contactInfo">
+            {/* <Row className="contactInfo">
               <Row className="contactHeading"><p>Office Location</p>
               </Row>
               <Row><p>10318, Whalley Blvd #1, <br /> Surrey, B.C., V3T 4H4</p>
@@ -195,7 +196,21 @@ function Home() {
               <Row><a target="_blank" rel="noreferrer" href="https://www.google.com/maps/dir//10318+Whalley+Blvd,+Surrey,+BC+V3T+4H4/@49.1900441,-122.8435607,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x5485d77fe99784f9:0x97e7ad9c4054079c!2m2!1d-122.841372!2d49.1900441!3e0">
                 <Button className="directionsButton" variant="outline-primary">Get Directions</Button></a>
               </Row>
-            </Row>
+            </Row> */}
+
+            {/* <Row className="contactInfo">
+              <Row className="contactHeading"><p>Reach out via Email</p></Row>
+              <Row><a
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:info@rhythmimmigration.consulting?subject=Mail from Website regarding: ">
+                <Button className="directionsButton" variant="outline-primary">
+                  <Image className="emailLogoStyle" src={EmailLogo} />
+                  <p className="whatsAppText">Email</p>
+                </Button></a>
+              </Row>
+            </Row> */}
+
           </Col>
 
 

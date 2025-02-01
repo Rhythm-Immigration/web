@@ -290,6 +290,17 @@ border-radius: 6px;
   align-items: center;
 }
 
+.emailLogoStyle {
+  margin: 0px 10px 0px 0px;
+  padding: 0.5% 2.5% 0.5% 2.5%;
+  width: 4vh;
+  background-color: #ffffff;
+  border-radius: 20%;
+  border-color: #ffffff;
+  fill: #254093;
+  display: inline-block;
+}
+
 .nameColor1{
   background-color: #254093;
 }
