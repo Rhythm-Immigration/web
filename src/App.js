@@ -5,9 +5,26 @@ import './App.css';
 import Navigation from "./components/Navigation/Navigation";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
-import Projects from "./components/Projects/Projects"
+// import Projects from "./components/Projects/Projects"
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import DocumentMeta from 'react-document-meta';
+import Services from "./components/Services/Services";
+import Blogs from "./components/Blogs/Blogs";
+import Blog1 from "./components/Blogs/Data/Blog1";
+import PGWPextension from "./components/Blogs/Data/PGWPextension";
+import AgriBlog from "./components/Blogs/Data/AgriBlog";
+import EducationPoints from "./components/Blogs/Data/EducationPoints";
+import SkilledAmount from "./components/Blogs/Data/SkilledAmount";
+import StudyLength from "./components/Blogs/Data/StudyLength";
+import EnglishLanguage from "./components/Blogs/Data/EnglishLanguage";
+import CategoryBased from "./components/Blogs/Data/CategoryBased";
+import ReuniteFamily from "./components/Blogs/Data/ReuniteFamily";
+import EtaProgram from "./components/Blogs/Data/etaProgram";
+import RevisedStudentsProgram from "./components/Blogs/Data/RevisedStudentsProgram";
+
+import Draws from "./components/Draws/Draws";
+import ExpressEntry from "./components/Draws/DrawTables/ExpressEntry";
+import BCpnp from "./components/Draws/DrawTables/BCpnp";
 // import FavIcon from "./assets/Logos/favicon.png";
 
 
@@ -16,7 +33,7 @@ class App extends Component {
 
     const meta = {
       title: 'Rhythm Immigration',
-      description: 'Rhythm Immigration Website. We offer Canadian Immigration Services.',
+      description: 'Rhythm Immigration Consultancy Services Inc provides personalized and strategic consultancy services to individuals and families on all Canadian immigration visa categories. We help our clients to accomplish their dream of settling, living, studying and working in Canada by assessing their profiles and finding the best immigration pathways for them. Contact: +1 (604) 906-1717',
       link: {
         icon: '/web/favicon.png',
       }
@@ -35,7 +52,30 @@ class App extends Component {
 
 
             <Route exact path="/"><Home /><Footer /></Route>
-            <Route path="/projects"><Projects /><Footer /></Route>
+            {/* <Route path="/projects"><Projects /><Footer /></Route> */}
+            <Route path="/services"><Services /><Footer /></Route>
+
+            <Route path="/blogs"><Blogs /><Footer /></Route>
+            <Route path="/blog/empp"><Blog1 /><Footer /></Route>
+            <Route path="/blog/pgwp-extension"><PGWPextension /><Footer /></Route>
+            <Route path="/blog/agri-food"><AgriBlog /><Footer /></Route>
+            <Route path="/blog/education-points"><EducationPoints /><Footer /></Route>
+            <Route path="/blog/skilled-immigrant-amount"><SkilledAmount /><Footer /></Route>
+            <Route path="/blog/study-length"><StudyLength /><Footer /></Route>
+            <Route path="/blog/revised-student-program"><RevisedStudentsProgram /><Footer /></Route>
+            <Route path="/blog/english-language"><EnglishLanguage /><Footer /></Route>
+            <Route path="/blog/category-based"><CategoryBased /><Footer /></Route>
+            <Route path="/blog/eta-program"><EtaProgram /><Footer /></Route>
+            <Route path="/blog/reunite-family"><ReuniteFamily /><Footer /></Route>
+
+            <Route path="/draws"><Draws />
+
+              <Route path="/draws/express-entry"><ExpressEntry /> </Route>
+              <Route path="/draws/bc-pnp"><BCpnp /> </Route>
+              <Route path="/draws/tronto-pnp"><Blog1 /> </Route>
+
+              <Footer /></Route>
+
             {/* <Route path="/faq"><Faq /><Footer /></Route>
           <Route path="/info"><Info /><Footer /></Route>
           <Route path="/about"><About /><Footer /></Route>

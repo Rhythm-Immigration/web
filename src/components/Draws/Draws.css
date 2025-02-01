@@ -1,0 +1,63 @@
+.drawsRootCon {
+  padding: 5% 0;
+}
+
+.tableContainer {
+    padding: 0 10% 5% 10%;
+}
+
+.selectorColumn {
+text-align: center;
+}
+
+.drawButtons {
+    margin: 2%;
+    color: #254093;
+    border-color: #254093;
+  }
+
+  .drawButtons:hover {
+    background-color: #DEE4F7;
+    color: #254093;
+  }
+
+  .drawButtons:focus {
+    background-color: #254093;
+  }
+
+  .drawButtons:focus:hover {
+    color: white;
+  }
+
+  .tableHeader {
+    margin: auto;
+    padding: 0.5% 0 0.5% 0;
+    min-width: 600px;
+    background-color: #254093;
+    color: aliceblue;
+    font-weight: bold;
+  }
+
+  .tableHeaderCol {
+    margin: auto;
+}
+
+  .tableDataColA {
+    margin: auto;
+    padding: 0.5% 0 0.5% 0;
+    min-width: 600px;
+    background-color: #EFF1FB;
+  }
+
+
+  .tableDataColB {
+    margin: auto;
+    padding: 0.5% 0 0.5% 0;
+    min-width: 600px;
+    background-color: #DEE4F7;
+    border-bottom: #254093 solid 1px;
+  }
+
+  .tableOverflow {
+    overflow: auto;
+  }
