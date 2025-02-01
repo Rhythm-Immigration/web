@@ -13,7 +13,7 @@ class Navigation extends Component {
             <div className="outNavBar">
                 <div className="inNavBar">
                     <Navbar variant="dark" expand="lg">
-                        <Navbar.Brand href='/#/'>Rythm Immigration</Navbar.Brand>
+                        <Navbar.Brand href='/#/'>Rhythm Immigration</Navbar.Brand>
                         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mr-auto">

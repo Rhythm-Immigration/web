@@ -21,13 +21,13 @@ class Footer extends Component {
                     < link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"></link>
                     <Container>
                         <Row>
-                            <Col sm>&#169; 2021 Rythm Immigration</Col>
+                            <Col sm>&#169; 2022 Rhythm Immigration</Col>
 
 
 
                             <Col sm className="footCol3">
                                 <a href="mailto:info@rhythmimmigration.consulting?subject=Mail from Website regarding: ">
-                                    <Button variant="outline-warning">Contact me</Button>
+                                    <Button variant="outline-warning">Contact Us</Button>
                                 </a>
                             </Col>
                         </Row>
@@ -56,7 +56,7 @@ class Footer extends Component {
                                 </Col>
                             </MediaQuery>
 
-                            <MediaQuery maxWidth={1289}>
+                            <MediaQuery maxWidth={1290}>
                                 <Col sm>
                                     <ul className="list-unstyled list-inline text-center">
                                         <li className="list-inline-item">
@@ -82,7 +82,7 @@ class Footer extends Component {
 
                             <MediaQuery minWidth={1290}>
                                 <Col sm>
-                                    <Row><Col sm={5} className="text-right">Business Hours :</Col> <Col sm> <b>By appointments Only</b></Col></Row>
+                                    <Row><Col sm={5} className="text-right">Business Hours :</Col> <Col sm> <b>By Appointment Only</b></Col></Row>
                                     <Row><Col sm={5} className="text-right" >Monday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={5} className="text-right" >Tuesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={5} className="text-right" >Wednesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
@@ -93,9 +93,9 @@ class Footer extends Component {
                                 </Col>
                             </MediaQuery>
 
-                            <MediaQuery maxWidth={1289}>
+                            <MediaQuery maxWidth={1290}>
                                 <Col sm>
-                                    <Row><Col sm={5} className="text-left">Business Hours :</Col> <Col sm> <b>By appointments Only</b></Col></Row>
+                                    <Row><Col sm={5} className="text-left">Business Hours :</Col> <Col sm> <b>By Appointment Only</b></Col></Row>
                                     <Row><Col sm={4} className="text-left" >Monday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={4} className="text-left" >Tuesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
                                     <Row><Col sm={4} className="text-left" >Wednesday :</Col > <Col sm={5}>9a.m. – 7:30 p.m.</Col></Row>
@@ -108,9 +108,7 @@ class Footer extends Component {
                         </Row>
                     </Container>
                 </div>
-
-                {/* <ModalFooter> &#169; 2021 </ModalFooter> */}
-            </div>
+            </div >
         )
     };
 };
